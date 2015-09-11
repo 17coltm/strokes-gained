@@ -9,9 +9,17 @@
 import UIKit
 
 class DetailViewController: UIViewController {
-
+    
     @IBOutlet weak var detailDescriptionLabel: UILabel!
-
+    @IBOutlet weak var distanceFromHole1: UITextField!
+    
+    @IBOutlet weak var puttValue: UISegmentedControl!
+    @IBAction func Putts(sender: UISegmentedControl) {
+        calculate()
+    }
+    
+    func calculate() {
+    }
 
     var detailItem: AnyObject? {
         didSet {
