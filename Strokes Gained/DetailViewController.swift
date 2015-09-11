@@ -19,6 +19,7 @@ class DetailViewController: UIViewController {
     }
     
     func calculate() {
+        print("hi")
     }
 
     var detailItem: AnyObject? {
